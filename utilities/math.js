@@ -1,0 +1,1 @@
+export const sum2num =(x,y) => x+y

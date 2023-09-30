@@ -49,12 +49,11 @@ function FoodItem(props){
       socialNetworks,
       status,
       url,
-      onPress
+      onPress,
       website}=props.food
 
     return(
         <TouchableOpacity
-        onPress={onPress}
         style={{
           height: 150,
           flexDirection: 'row',

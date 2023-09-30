@@ -146,7 +146,6 @@ function FoodList(props) {
 
       
       renderItem={({item}) =>{
-          //debugger
           return <FoodItem food={item} key={item.name}/>
       }}
       keyExtractor={eachFood => eachFood.name}
